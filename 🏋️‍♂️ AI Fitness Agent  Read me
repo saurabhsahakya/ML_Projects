@@ -1,0 +1,30 @@
+# 🏋️‍♂️ AI Fitness Agent (Computer Vision)
+
+**AI Fitness Agent** is a real-time posture and workout tracking system that uses **OpenCV + MediaPipe** to analyze body movements during exercises like **Squats** and **Push-ups**.  
+It provides **instant feedback**, counts **reps**, and detects **form errors** — like a virtual trainer right in your webcam!
+
+---
+
+## 🚀 Features
+- 🧠 Real-time full-body pose estimation using **MediaPipe**
+- 🔢 Automatic rep counting (Squats / Push-ups)
+- ⚠️ Posture feedback (e.g., torso lean, knee-over-toe, hip misalignment)
+- 💻 Works with any webcam
+- 🔄 Easily extensible for new exercises
+
+---
+
+## 🛠️ Tech Stack
+- **Python 3.8+**
+- **OpenCV** – frame capture & drawing
+- **MediaPipe** – body pose detection
+- **NumPy** – math operations
+- *(Optional)* TensorFlow / PyTorch – for custom models
+
+---
+
+## ⚙️ Installation
+```bash
+git clone https://github.com/<your-username>/AI-Fitness-Agent.git
+cd AI-Fitness-Agent
+pip install -r requirements.txt
