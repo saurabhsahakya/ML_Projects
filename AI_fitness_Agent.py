@@ -1,3 +1,4 @@
+"""
 AI Fitness Agent (OpenCV + MediaPipe)
 Supports:
  - Squat rep counting + simple posture warnings (knee over toe, torso too forward)
@@ -287,4 +288,3 @@ if __name__ == "__main__":
     args = parser.parse_args()
 
     main(exercise=args.exercise, camera_idx=args.camera, display=args.display)
-
